@@ -67,7 +67,7 @@ export async function getStaticProps({
   const blog = await getBlogBySlug(params.slug, preview);
   return {
     props: { blog, preview },
-    revalidate: 1,
+    unstable_revalidate: 1,
   };
 }
 
