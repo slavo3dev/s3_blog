@@ -18,7 +18,6 @@ import moment from "moment";
 import React from "react";
 
 export const BlogList = ({ data = [], filter }) => {
-  console.log("Data: ", data);
   return data.map(page =>
     page.map(blog =>
       filter.view.list ? (
