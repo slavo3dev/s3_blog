@@ -9,6 +9,7 @@ import {
   faSortNumericDown,
   faSortNumericUp,
 } from "@fortawesome/free-solid-svg-icons";
+import Head from "next/head";
 import React from "react";
 
 config.autoAddCss = false;
@@ -31,6 +32,15 @@ import "styles/index.scss";
 export default ({ Component, pageProps }) => {
   return (
     <ThemeProvider>
+      <Head>
+        <title>
+          Slavo_3 / Software Development & Blog & Consulting
+        </title>
+        <meta
+          name="viewport"
+          content="initial-scale=1.0, width=device-width"
+        />
+      </Head>
       <Component {...pageProps} />
     </ThemeProvider>
   );

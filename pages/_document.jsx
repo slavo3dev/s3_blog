@@ -28,7 +28,6 @@ export default class MyDocument extends Document {
           `,
             }}
           />
-          <title>{"Slavo_3 Software Engineer/Blog/Consulting"}</title>
           <link rel="shortcut icon" href="lion.jpg" />
           <script
             defer
